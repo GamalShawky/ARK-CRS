@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4AEA17E0468AE2CAB178CC /* Pods_ARk_CRS_ARk_CRSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113C1361E871FCC2D6304169 /* Pods_ARk_CRS_ARk_CRSUITests.framework */; };
+		C7F78059D925E77C3BE48B1A /* Pods_ARk_CRSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9140B63C146B1316B24F5C /* Pods_ARk_CRSTests.framework */; };
+		C81F3C992932CC1C00C38412 /* login_form.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81F3C982932CC1C00C38412 /* login_form.swift */; };
+		C8337C9F2933AED800F50A3D /* AM_Reports.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8337C9E2933AED800F50A3D /* AM_Reports.swift */; };
+		C8337CA12933C24F00F50A3D /* Amreports_tablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8337CA02933C24F00F50A3D /* Amreports_tablecell.swift */; };
+		C83E3B0429378B15004E3389 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E3B0329378B15004E3389 /* Accounts.swift */; };
+		C83E3B0629378DC5004E3389 /* AccountTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E3B0529378DC5004E3389 /* AccountTableView.swift */; };
+		C83E3B0829379EF5004E3389 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E3B0729379EF5004E3389 /* Customers.swift */; };
+		C83E3B0A29379F2E004E3389 /* CustomerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E3B0929379F2E004E3389 /* CustomerTableView.swift */; };
+		C844FCDE29340D2F00351038 /* PM_Reports.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844FCDD29340D2F00351038 /* PM_Reports.swift */; };
+		C844FCE029340E7300351038 /* pm_report_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844FCDF29340E7300351038 /* pm_report_cell.swift */; };
+		C85CB7BCDF94919E5468BD31 /* Pods_ARk_CRS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7612F441311171D121BE6DB3 /* Pods_ARk_CRS.framework */; };
+		C895F6E7293255AD001F1A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F6E6293255AD001F1A20 /* AppDelegate.swift */; };
+		C895F6E9293255AD001F1A20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F6E8293255AD001F1A20 /* SceneDelegate.swift */; };
+		C895F6EB293255AD001F1A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F6EA293255AD001F1A20 /* ViewController.swift */; };
+		C895F6EE293255AD001F1A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C895F6EC293255AD001F1A20 /* Main.storyboard */; };
+		C895F6F1293255AD001F1A20 /* ARk_CRS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C895F6EF293255AD001F1A20 /* ARk_CRS.xcdatamodeld */; };
+		C895F6F3293255AF001F1A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C895F6F2293255AF001F1A20 /* Assets.xcassets */; };
+		C895F6F6293255AF001F1A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C895F6F4293255AF001F1A20 /* LaunchScreen.storyboard */; };
+		C895F701293255AF001F1A20 /* ARk_CRSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F700293255AF001F1A20 /* ARk_CRSTests.swift */; };
+		C895F70B293255AF001F1A20 /* ARk_CRSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F70A293255AF001F1A20 /* ARk_CRSUITests.swift */; };
+		C895F70D293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F70C293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift */; };
+		C8E0A00B2935763800077F1F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E0A00A2935763800077F1F /* HomePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C895F6FD293255AF001F1A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C895F6DB293255AD001F1A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C895F6E2293255AD001F1A20;
+			remoteInfo = "ARk-CRS";
+		};
+		C895F707293255AF001F1A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C895F6DB293255AD001F1A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C895F6E2293255AD001F1A20;
+			remoteInfo = "ARk-CRS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113C1361E871FCC2D6304169 /* Pods_ARk_CRS_ARk_CRSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARk_CRS_ARk_CRSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EF434C37DEE564ADDE8931 /* Pods-ARk-CRSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRSTests.release.xcconfig"; path = "Target Support Files/Pods-ARk-CRSTests/Pods-ARk-CRSTests.release.xcconfig"; sourceTree = "<group>"; };
+		643DCA596569E4263674AEB3 /* Pods-ARk-CRSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRSTests.debug.xcconfig"; path = "Target Support Files/Pods-ARk-CRSTests/Pods-ARk-CRSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7612F441311171D121BE6DB3 /* Pods_ARk_CRS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARk_CRS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9140B63C146B1316B24F5C /* Pods_ARk_CRSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARk_CRSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8201BC17C64BC6BF765685FD /* Pods-ARk-CRS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRS.release.xcconfig"; path = "Target Support Files/Pods-ARk-CRS/Pods-ARk-CRS.release.xcconfig"; sourceTree = "<group>"; };
+		C81F3C982932CC1C00C38412 /* login_form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_form.swift; sourceTree = "<group>"; };
+		C8337C9E2933AED800F50A3D /* AM_Reports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_Reports.swift; sourceTree = "<group>"; };
+		C8337CA02933C24F00F50A3D /* Amreports_tablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amreports_tablecell.swift; sourceTree = "<group>"; };
+		C83E3B0329378B15004E3389 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		C83E3B0529378DC5004E3389 /* AccountTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableView.swift; sourceTree = "<group>"; };
+		C83E3B0729379EF5004E3389 /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		C83E3B0929379F2E004E3389 /* CustomerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableView.swift; sourceTree = "<group>"; };
+		C844FCDD29340D2F00351038 /* PM_Reports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM_Reports.swift; sourceTree = "<group>"; };
+		C844FCDF29340E7300351038 /* pm_report_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pm_report_cell.swift; sourceTree = "<group>"; };
+		C895F6E3293255AD001F1A20 /* ARk-CRS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARk-CRS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C895F6E6293255AD001F1A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C895F6E8293255AD001F1A20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C895F6EA293255AD001F1A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C895F6ED293255AD001F1A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C895F6F0293255AD001F1A20 /* ARk_CRS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARk_CRS.xcdatamodel; sourceTree = "<group>"; };
+		C895F6F2293255AF001F1A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C895F6F5293255AF001F1A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C895F6F7293255AF001F1A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C895F6FC293255AF001F1A20 /* ARk-CRSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARk-CRSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C895F700293255AF001F1A20 /* ARk_CRSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARk_CRSTests.swift; sourceTree = "<group>"; };
+		C895F706293255AF001F1A20 /* ARk-CRSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARk-CRSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C895F70A293255AF001F1A20 /* ARk_CRSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARk_CRSUITests.swift; sourceTree = "<group>"; };
+		C895F70C293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARk_CRSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8E0A00A2935763800077F1F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		D30DA3A56FF80652E3293DDD /* Pods-ARk-CRS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRS.debug.xcconfig"; path = "Target Support Files/Pods-ARk-CRS/Pods-ARk-CRS.debug.xcconfig"; sourceTree = "<group>"; };
+		DC893283236291713F79A8BB /* Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig"; path = "Target Support Files/Pods-ARk-CRS-ARk-CRSUITests/Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8DF661FF04B807AD2B5E885 /* Pods-ARk-CRS-ARk-CRSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRS-ARk-CRSUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARk-CRS-ARk-CRSUITests/Pods-ARk-CRS-ARk-CRSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C895F6E0293255AD001F1A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85CB7BCDF94919E5468BD31 /* Pods_ARk_CRS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C895F6F9293255AF001F1A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F78059D925E77C3BE48B1A /* Pods_ARk_CRSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C895F703293255AF001F1A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4AEA17E0468AE2CAB178CC /* Pods_ARk_CRS_ARk_CRSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA48F91AB118EA17579D30D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7612F441311171D121BE6DB3 /* Pods_ARk_CRS.framework */,
+				113C1361E871FCC2D6304169 /* Pods_ARk_CRS_ARk_CRSUITests.framework */,
+				7F9140B63C146B1316B24F5C /* Pods_ARk_CRSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C895F6DA293255AD001F1A20 = {
+			isa = PBXGroup;
+			children = (
+				C895F6E5293255AD001F1A20 /* ARk-CRS */,
+				C895F6FF293255AF001F1A20 /* ARk-CRSTests */,
+				C895F709293255AF001F1A20 /* ARk-CRSUITests */,
+				C895F6E4293255AD001F1A20 /* Products */,
+				CABD18DDB01494F13F8CC043 /* Pods */,
+				7DA48F91AB118EA17579D30D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C895F6E4293255AD001F1A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C895F6E3293255AD001F1A20 /* ARk-CRS.app */,
+				C895F6FC293255AF001F1A20 /* ARk-CRSTests.xctest */,
+				C895F706293255AF001F1A20 /* ARk-CRSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C895F6E5293255AD001F1A20 /* ARk-CRS */ = {
+			isa = PBXGroup;
+			children = (
+				C895F6E6293255AD001F1A20 /* AppDelegate.swift */,
+				C895F6E8293255AD001F1A20 /* SceneDelegate.swift */,
+				C895F6EA293255AD001F1A20 /* ViewController.swift */,
+				C8E0A00A2935763800077F1F /* HomePage.swift */,
+				C895F6EC293255AD001F1A20 /* Main.storyboard */,
+				C83E3B0929379F2E004E3389 /* CustomerTableView.swift */,
+				C83E3B0729379EF5004E3389 /* Customers.swift */,
+				C83E3B0529378DC5004E3389 /* AccountTableView.swift */,
+				C83E3B0329378B15004E3389 /* Accounts.swift */,
+				C844FCDF29340E7300351038 /* pm_report_cell.swift */,
+				C844FCDD29340D2F00351038 /* PM_Reports.swift */,
+				C8337CA02933C24F00F50A3D /* Amreports_tablecell.swift */,
+				C8337C9E2933AED800F50A3D /* AM_Reports.swift */,
+				C81F3C982932CC1C00C38412 /* login_form.swift */,
+				C895F6F2293255AF001F1A20 /* Assets.xcassets */,
+				C895F6F4293255AF001F1A20 /* LaunchScreen.storyboard */,
+				C895F6F7293255AF001F1A20 /* Info.plist */,
+				C895F6EF293255AD001F1A20 /* ARk_CRS.xcdatamodeld */,
+			);
+			path = "ARk-CRS";
+			sourceTree = "<group>";
+		};
+		C895F6FF293255AF001F1A20 /* ARk-CRSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C895F700293255AF001F1A20 /* ARk_CRSTests.swift */,
+			);
+			path = "ARk-CRSTests";
+			sourceTree = "<group>";
+		};
+		C895F709293255AF001F1A20 /* ARk-CRSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C895F70A293255AF001F1A20 /* ARk_CRSUITests.swift */,
+				C895F70C293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift */,
+			);
+			path = "ARk-CRSUITests";
+			sourceTree = "<group>";
+		};
+		CABD18DDB01494F13F8CC043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D30DA3A56FF80652E3293DDD /* Pods-ARk-CRS.debug.xcconfig */,
+				8201BC17C64BC6BF765685FD /* Pods-ARk-CRS.release.xcconfig */,
+				E8DF661FF04B807AD2B5E885 /* Pods-ARk-CRS-ARk-CRSUITests.debug.xcconfig */,
+				DC893283236291713F79A8BB /* Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig */,
+				643DCA596569E4263674AEB3 /* Pods-ARk-CRSTests.debug.xcconfig */,
+				17EF434C37DEE564ADDE8931 /* Pods-ARk-CRSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C895F6E2293255AD001F1A20 /* ARk-CRS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C895F710293255B0001F1A20 /* Build configuration list for PBXNativeTarget "ARk-CRS" */;
+			buildPhases = (
+				10AC0091AAE57BD40FFA0BBF /* [CP] Check Pods Manifest.lock */,
+				C895F6DF293255AD001F1A20 /* Sources */,
+				C895F6E0293255AD001F1A20 /* Frameworks */,
+				C895F6E1293255AD001F1A20 /* Resources */,
+				4DF1AA420799D31FA6D20418 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARk-CRS";
+			productName = "ARk-CRS";
+			productReference = C895F6E3293255AD001F1A20 /* ARk-CRS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C895F6FB293255AF001F1A20 /* ARk-CRSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C895F713293255B0001F1A20 /* Build configuration list for PBXNativeTarget "ARk-CRSTests" */;
+			buildPhases = (
+				1E2E1C170863469CB8C856BD /* [CP] Check Pods Manifest.lock */,
+				C895F6F8293255AF001F1A20 /* Sources */,
+				C895F6F9293255AF001F1A20 /* Frameworks */,
+				C895F6FA293255AF001F1A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C895F6FE293255AF001F1A20 /* PBXTargetDependency */,
+			);
+			name = "ARk-CRSTests";
+			productName = "ARk-CRSTests";
+			productReference = C895F6FC293255AF001F1A20 /* ARk-CRSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C895F705293255AF001F1A20 /* ARk-CRSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C895F716293255B0001F1A20 /* Build configuration list for PBXNativeTarget "ARk-CRSUITests" */;
+			buildPhases = (
+				67933D8353ED9CD07E7FD667 /* [CP] Check Pods Manifest.lock */,
+				C895F702293255AF001F1A20 /* Sources */,
+				C895F703293255AF001F1A20 /* Frameworks */,
+				C895F704293255AF001F1A20 /* Resources */,
+				E736717D75B3CFA33368FD5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C895F708293255AF001F1A20 /* PBXTargetDependency */,
+			);
+			name = "ARk-CRSUITests";
+			productName = "ARk-CRSUITests";
+			productReference = C895F706293255AF001F1A20 /* ARk-CRSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C895F6DB293255AD001F1A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C895F6E2293255AD001F1A20 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C895F6FB293255AF001F1A20 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C895F6E2293255AD001F1A20;
+					};
+					C895F705293255AF001F1A20 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C895F6E2293255AD001F1A20;
+					};
+				};
+			};
+			buildConfigurationList = C895F6DE293255AD001F1A20 /* Build configuration list for PBXProject "ARk-CRS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C895F6DA293255AD001F1A20;
+			productRefGroup = C895F6E4293255AD001F1A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C895F6E2293255AD001F1A20 /* ARk-CRS */,
+				C895F6FB293255AF001F1A20 /* ARk-CRSTests */,
+				C895F705293255AF001F1A20 /* ARk-CRSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C895F6E1293255AD001F1A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C895F6F6293255AF001F1A20 /* LaunchScreen.storyboard in Resources */,
+				C895F6F3293255AF001F1A20 /* Assets.xcassets in Resources */,
+				C895F6EE293255AD001F1A20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C895F6FA293255AF001F1A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C895F704293255AF001F1A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10AC0091AAE57BD40FFA0BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARk-CRS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E2E1C170863469CB8C856BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARk-CRSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DF1AA420799D31FA6D20418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARk-CRS/Pods-ARk-CRS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARk-CRS/Pods-ARk-CRS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARk-CRS/Pods-ARk-CRS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67933D8353ED9CD07E7FD667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARk-CRS-ARk-CRSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E736717D75B3CFA33368FD5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARk-CRS-ARk-CRSUITests/Pods-ARk-CRS-ARk-CRSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARk-CRS-ARk-CRSUITests/Pods-ARk-CRS-ARk-CRSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARk-CRS-ARk-CRSUITests/Pods-ARk-CRS-ARk-CRSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C895F6DF293255AD001F1A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81F3C992932CC1C00C38412 /* login_form.swift in Sources */,
+				C895F6EB293255AD001F1A20 /* ViewController.swift in Sources */,
+				C83E3B0429378B15004E3389 /* Accounts.swift in Sources */,
+				C895F6F1293255AD001F1A20 /* ARk_CRS.xcdatamodeld in Sources */,
+				C844FCE029340E7300351038 /* pm_report_cell.swift in Sources */,
+				C83E3B0629378DC5004E3389 /* AccountTableView.swift in Sources */,
+				C8337CA12933C24F00F50A3D /* Amreports_tablecell.swift in Sources */,
+				C83E3B0829379EF5004E3389 /* Customers.swift in Sources */,
+				C8E0A00B2935763800077F1F /* HomePage.swift in Sources */,
+				C895F6E7293255AD001F1A20 /* AppDelegate.swift in Sources */,
+				C895F6E9293255AD001F1A20 /* SceneDelegate.swift in Sources */,
+				C83E3B0A29379F2E004E3389 /* CustomerTableView.swift in Sources */,
+				C844FCDE29340D2F00351038 /* PM_Reports.swift in Sources */,
+				C8337C9F2933AED800F50A3D /* AM_Reports.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C895F6F8293255AF001F1A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C895F701293255AF001F1A20 /* ARk_CRSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C895F702293255AF001F1A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C895F70D293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift in Sources */,
+				C895F70B293255AF001F1A20 /* ARk_CRSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C895F6FE293255AF001F1A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C895F6E2293255AD001F1A20 /* ARk-CRS */;
+			targetProxy = C895F6FD293255AF001F1A20 /* PBXContainerItemProxy */;
+		};
+		C895F708293255AF001F1A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C895F6E2293255AD001F1A20 /* ARk-CRS */;
+			targetProxy = C895F707293255AF001F1A20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C895F6EC293255AD001F1A20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C895F6ED293255AD001F1A20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C895F6F4293255AF001F1A20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C895F6F5293255AF001F1A20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C895F70E293255AF001F1A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C895F70F293255AF001F1A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C895F711293255B0001F1A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30DA3A56FF80652E3293DDD /* Pods-ARk-CRS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ARk-CRS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamika.ARk-CRS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C895F712293255B0001F1A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8201BC17C64BC6BF765685FD /* Pods-ARk-CRS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ARk-CRS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamika.ARk-CRS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C895F714293255B0001F1A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643DCA596569E4263674AEB3 /* Pods-ARk-CRSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamika.ARk-CRSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARk-CRS.app/ARk-CRS";
+			};
+			name = Debug;
+		};
+		C895F715293255B0001F1A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EF434C37DEE564ADDE8931 /* Pods-ARk-CRSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamika.ARk-CRSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARk-CRS.app/ARk-CRS";
+			};
+			name = Release;
+		};
+		C895F717293255B0001F1A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DF661FF04B807AD2B5E885 /* Pods-ARk-CRS-ARk-CRSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamika.ARk-CRSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARk-CRS";
+			};
+			name = Debug;
+		};
+		C895F718293255B0001F1A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC893283236291713F79A8BB /* Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamika.ARk-CRSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARk-CRS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C895F6DE293255AD001F1A20 /* Build configuration list for PBXProject "ARk-CRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895F70E293255AF001F1A20 /* Debug */,
+				C895F70F293255AF001F1A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C895F710293255B0001F1A20 /* Build configuration list for PBXNativeTarget "ARk-CRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895F711293255B0001F1A20 /* Debug */,
+				C895F712293255B0001F1A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C895F713293255B0001F1A20 /* Build configuration list for PBXNativeTarget "ARk-CRSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895F714293255B0001F1A20 /* Debug */,
+				C895F715293255B0001F1A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C895F716293255B0001F1A20 /* Build configuration list for PBXNativeTarget "ARk-CRSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895F717293255B0001F1A20 /* Debug */,
+				C895F718293255B0001F1A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C895F6EF293255AD001F1A20 /* ARk_CRS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C895F6F0293255AD001F1A20 /* ARk_CRS.xcdatamodel */,
+			);
+			currentVersion = C895F6F0293255AD001F1A20 /* ARk_CRS.xcdatamodel */;
+			path = ARk_CRS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C895F6DB293255AD001F1A20 /* Project object */;
+}
