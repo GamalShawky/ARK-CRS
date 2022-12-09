@@ -10,6 +10,9 @@ import UIKit
 class Customers: UIViewController {
     
     var listcustomers : [String] = ["احمد الخطيب محمد" , "أسامه عكاشه محمد","احمد الخطيب محمد" , "أسامه عكاشه محمد","احمد الخطيب محمد" , "أسامه عكاشه محمد"]
+    
+    
+    
 
     @IBOutlet weak var Customers_TableView: UITableView!
     override func viewDidLoad() {

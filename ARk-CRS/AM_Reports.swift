@@ -26,6 +26,14 @@ class AM_Reports: UIViewController {
 
     }
     
+    private func addLableGeature() {
+//        pls_btn.addGestureRecognizer(UIGestureRecognizer(target: .none, action: #lableDateTab))
+    }
+    
+    @objc func lableDateTab() {
+        //show date picker
+    }
+    
 
     @IBAction func btn_report_action(_ sender: Any) {
         showalert()
