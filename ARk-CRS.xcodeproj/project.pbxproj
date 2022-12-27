@@ -31,6 +31,8 @@
 		C895F701293255AF001F1A20 /* ARk_CRSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F700293255AF001F1A20 /* ARk_CRSTests.swift */; };
 		C895F70B293255AF001F1A20 /* ARk_CRSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F70A293255AF001F1A20 /* ARk_CRSUITests.swift */; };
 		C895F70D293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895F70C293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift */; };
+		C8C42874295B150F0086888B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C42873295B150F0086888B /* MapViewController.swift */; };
+		C8C42876295B15420086888B /* SearchingInMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C42875295B15420086888B /* SearchingInMapViewController.swift */; };
 		C8E0A00B2935763800077F1F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E0A00A2935763800077F1F /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +85,8 @@
 		C895F706293255AF001F1A20 /* ARk-CRSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARk-CRSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C895F70A293255AF001F1A20 /* ARk_CRSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARk_CRSUITests.swift; sourceTree = "<group>"; };
 		C895F70C293255AF001F1A20 /* ARk_CRSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARk_CRSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8C42873295B150F0086888B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C8C42875295B15420086888B /* SearchingInMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingInMapViewController.swift; sourceTree = "<group>"; };
 		C8E0A00A2935763800077F1F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		D30DA3A56FF80652E3293DDD /* Pods-ARk-CRS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRS.debug.xcconfig"; path = "Target Support Files/Pods-ARk-CRS/Pods-ARk-CRS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC893283236291713F79A8BB /* Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig"; path = "Target Support Files/Pods-ARk-CRS-ARk-CRSUITests/Pods-ARk-CRS-ARk-CRSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 				C895F6EA293255AD001F1A20 /* ViewController.swift */,
 				C8E0A00A2935763800077F1F /* HomePage.swift */,
 				C895F6EC293255AD001F1A20 /* Main.storyboard */,
+				C8C42875295B15420086888B /* SearchingInMapViewController.swift */,
+				C8C42873295B150F0086888B /* MapViewController.swift */,
 				C86CAAE9293A57AD0050AB4B /* ProspectionTableViewCell.swift */,
 				C86CAAE7293A57760050AB4B /* ProspectionViewController.swift */,
 				C83E3B0929379F2E004E3389 /* CustomerTableView.swift */,
@@ -458,9 +464,11 @@
 				C8E0A00B2935763800077F1F /* HomePage.swift in Sources */,
 				C895F6E7293255AD001F1A20 /* AppDelegate.swift in Sources */,
 				C895F6E9293255AD001F1A20 /* SceneDelegate.swift in Sources */,
+				C8C42876295B15420086888B /* SearchingInMapViewController.swift in Sources */,
 				C83E3B0A29379F2E004E3389 /* CustomerTableView.swift in Sources */,
 				C844FCDE29340D2F00351038 /* PM_Reports.swift in Sources */,
 				C8337C9F2933AED800F50A3D /* AM_Reports.swift in Sources */,
+				C8C42874295B150F0086888B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
